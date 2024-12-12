@@ -1,0 +1,20 @@
+ # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# תלותים של Node.js (תיקיית node_modules לא נדרשת)
+node_modules/
+
+# קבצי סביבה (כמו מפתחות API וסיסמאות)
+.env
+
+# קבצי לוגים
+npm-debug.log
+yarn-error.log
+logs/
+
+# קבצים/תיקיות של IDE (כמו VSCode, JetBrains וכו')
+.vscode/
+.idea/
+
+# קבצים זמניים של מערכת
+.DS_Store
+Thumbs.db
